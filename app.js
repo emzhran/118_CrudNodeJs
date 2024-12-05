@@ -12,6 +12,7 @@ const session = require('express-session')
 const authRoutes = require('./routes/authRoutes.js');
 const { isAuthenticated } = require('./middlewares/middleware.js');
 
+app.use(express.static('public'));
 app.use(expressLayouts);
 
 app.use(express.json());

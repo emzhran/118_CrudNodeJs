@@ -1,13 +1,108 @@
-<h1>Login</h1>
-<form action="/login" method="POST">
-    <div class="mb-3">
-        <label for="username" class="form-label">Username</label>
-        <input type="text" class="form-control" id="username" name="username" required>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #001f3f;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .login-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .login-box {
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 15px;
+    }
+
+    h2 {
+        margin: 0;
+        font-size: 24px;
+        color: #001f3f;
+    }
+
+    .input-group {
+        margin: 15px 0;
+        text-align: left;
+    }
+
+    label {
+        display: block;
+        font-size: 14px;
+        color: #333333;
+        margin-bottom: 5px;
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #cccccc;
+        border-radius: 5px;
+    }
+
+    a {
+        color: #001f3f;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    button {
+        background-color: #001f3f;
+        color: #ffffff;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+        font-size: 16px;
+    }
+
+    button:hover {
+        background-color: #003366;
+    }
+
+    p {
+        font-size: 12px;
+        color: #666666;
+        margin: 10px 0 0;
+    }
+</style>
+
+    <div class="login-container">
+        <div class="login-box">
+            <img src="/images/z.jpg" alt="Logo" class="logo"> 
+            <h2>Login</h2>
+            <p>Masukkan username & password</p>
+            <form action="/login" method="POST">
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit">Sign in</button>
+            </form>
+            <p>Belum punya akun? <a href="/signup">Daftar di sini</a>.</p>
+        </div>
     </div>
-    <div class="mb-3">
-        <label for="password" class="form-label">Password</label>
-        <input type="password" class="form-control" id="password" name="password" required>
-    </div>
-    <button type="submit" class="btn btn-primary">Login</button>
-</form>
-<p>Belum punya akun? <a href="/signup">Daftar di sini</a>.</p>
