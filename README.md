@@ -1,11 +1,20 @@
-<h1>Preview tampilan halaman landing page dan contact page</h1>
+<p>(Update Styling)<p>
+<h1>Preview tampilan Login</h1>
 
-![Screenshot 2024-10-23 193650](https://github.com/user-attachments/assets/9ea617ad-ebaf-4638-8088-40a97acdf4dc)
+![Screenshot 2024-12-05 164509](https://github.com/user-attachments/assets/0376333b-5a8b-480a-bc6c-2c67deb00584)
 
-![Screenshot 2024-10-23 193707](https://github.com/user-attachments/assets/eec2bcf9-34e3-4c8a-a286-ed43098ad668)
+<h1>Preview tampilan Signup<h1>
 
+![Screenshot 2024-12-05 164521](https://github.com/user-attachments/assets/7c2fcd1c-bc88-4f0d-b7b0-c1ab14b8a4a2)
 
-<h1>Preview tugas Post, Delete, Update<h1>
+<h1>Preview tampilan home</h1>
+
+![Screenshot 2024-12-05 164702](https://github.com/user-attachments/assets/ab1dc9e1-50af-4431-84c8-dfeb6287be78)
+
+<h1>Preview tampilan Todo</h1>
+
+![Screenshot 2024-12-05 165401](https://github.com/user-attachments/assets/9665c1ff-ecda-45da-b769-cceb37728a47)
+
 
 <p>Post</p>
 
